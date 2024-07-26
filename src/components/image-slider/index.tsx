@@ -58,7 +58,7 @@ const ImageSlider: React.FC<Props> = ({ url, limit = 5, page = 1 }) => {
     }
   }, [url, fetchImages]);
 
-  console.log(images);
+  // console.log(images);
 
   if (loading) {
     return <div>Loading data ! Please wait</div>;
